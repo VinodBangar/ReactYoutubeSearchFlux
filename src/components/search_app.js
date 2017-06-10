@@ -10,7 +10,7 @@ import SearchResults from './search_results';
 import SearchActions from '../actions/index';
 
 const styles= {
-        margin:'20px 10px',
+        margin:'20px 0px',
         padding:'10px'
     }
 
@@ -23,12 +23,7 @@ class SearchApp extends React.Component {
     };
 
     searchYoutube = (searchtext) =>{
-        if(searchtext.trim()!=""){
-            this.props.SearchActions(searchtext);
-        }
-        else{
-            this.props.results:[];
-        }
+        this.props.SearchActions(searchtext);
     };
     
     componentDidMount(){
