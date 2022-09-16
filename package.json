@@ -20,7 +20,7 @@
     "dependencies": {
         "axios": "^0.16.2",
         "babel-preset-stage-1": "^6.24.1",
-        "bootstrap": "^3.3.7",
+        "bootstrap": "^3.4.1",
         "react": "^15.5.4",
         "react-dom": "^15.5.4",
         "react-redux": "^4.4.6",
